@@ -12,9 +12,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <style type="text/css">
   #back{
-            background-color:grey;
+
             width:100%;
             height:400px;
+            background: linear-gradient(to right,#0f60ab,bisque),url("back.jpg");
+            background-position: center;
             margin-left:0px;
             padding:0px;
 
@@ -22,12 +24,15 @@
   a{
     color:white;
   }
+
+
   a:hover{
     color:#f4511e;
     background-color:white;
    
 
   }
+
   
    #About, #Services, #portfolio, #Pricing, #Contact
   {
@@ -39,15 +44,16 @@
 
   } 
 .jumbotron{
-       background-color:#B0E0E6;
-       color:black;
+
+       color:darkslateblue;
+        background: transparent !important;
 
 
 }
 
 #navigation
 {
-  background-color:chocolate;
+  background-color:darkslateblue;
 }
 #logo
 { 
@@ -101,12 +107,14 @@ margin-left:50px;
   top:-240px;
 */
 }
-#mission , #vision
+#mission
 {
   position:relative;
   top:-200px;
   margin-left:290px;
   padding:40px;
+    font-size:30px;
+    color:purple;
 }
 .fa-power-off
 {
@@ -241,6 +249,37 @@ margin-left:50px;
     font-size:15px;
     margin-top:-5px;
 }
+.site{
+    height:405px;
+}
+.skills{
+    font-size:30px;
+    color:#f4511e;
+}
+#value{
+    color: #0f60ab;
+}
+#college{
+    font-size:80px;
+    color: #0c8484;
+}
+#sch{
+    font-size:80px;
+    color: #1AEBFF;
+}
+#ool{
+    font-size:80px;
+    color: purple;
+}
+.card-header{
+    background-color: darkslateblue;
+}
+.card-footer{
+    background-color: bisque;
+}
+.signup{
+    background-color: #0f60ab;
+}
 
 /*.cust
 {
@@ -283,7 +322,7 @@ margin-left:50px;
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#se" id="Services">Services</a>
+          <a class="nav-link" href="#se" id="Services">Academic</a>
         </li>
 
 
@@ -293,7 +332,7 @@ margin-left:50px;
         
        
         <li class="nav-item">
-          <a class="nav-link" href="#pr" id="Pricing">Pricing</a>
+          <a class="nav-link" href="#pr" id="Pricing">Internship</a>
         </li>
         
         
@@ -351,7 +390,8 @@ margin-left:50px;
 
 
              <div class="col-lg-4 mt-5 p-4">
-                 <i class="fas fa-signal"></i></div>
+                 <img src="new doc 2019-06-10 11.31.22-1 (1).jpg" width="250px" height="300px">
+
 
 
 </div>
@@ -365,17 +405,37 @@ margin-left:50px;
           <i class="fas fa-globe-americas container mb-5"></i>
         </div>
           <div class="col-lg-9">
+           <div class="row skills">
 
           <p id="mission">
-              <p>C</p>
-              <p>Core Java</p>
-              <p>OOPs Concept</p>
-              <p>HTML</p>
-              <p>CSS</p>
+              <div class="col-lg-4">
+              <p id="c">C</p>
+               </div>
+               <div class="col-lg-4">
+              <p id="java">Core Java</p>
+               </div>
+               <div class="col-lg-4">
+              <p id="oops">OOPs Concept</p>
+               </div>
+               <div class="col-lg-4">
+              <p id="html">HTML</p>
+               </div>
+               <div class="col-lg-4">
+              <p id="css">CSS</p>
+               </div>
+               <div class="col-lg-4">
               <p>Javascript</p>
+               </div>
+               <div class="col-lg-4">
               <p>Jquery</p>
+               </div>
+               <div class="col-lg-4">
               <p>Bootstrap</p>
+               </div>
+               <div class="col-lg-4">
               <p>Python</p>
+               </div>
+           </div>
 
           </p>
               
@@ -394,15 +454,16 @@ margin-left:50px;
                    <div class="container" id="se">
                   
                    
-                    <h1 class="text-center" >Services</h1>
-                       <h4 class="text-center pt-3">what we offer</h4>
+                    <h1 class="text-center mt-5" >Academic</h1>
+                       <h4 class="text-center pt-3"></h4>
                        <div class="row">
                          <div class="col-lg-4">
                           <div class="card card_1">
-                            <div class="card-img-top text-center"> <i class="fas fa-power-off"></i></div>
+                            <div class="card-img-top text-center"> <i class="fas fa-school" id="ool"></i></div>
                             <div class="card-body text-center">
-                              <h4>Power</h4>
-                              <p>Lorem ipsum dolor sit amet..</p>
+                              <h4>Class 10th</h4>
+                              <p>CBSE BOARD</p>
+                               <p>Aggregate of 7.6 CGPA</p>
                             </div>
                             </div>
                         
@@ -410,10 +471,13 @@ margin-left:50px;
                       </div>
                       <div class="col-lg-4 col-12">
                         <div class="card card_1">
-                            <div class="card-img-top text-center"> <i class="fas fa-heart"></i></div>
+                            <div class="card-img-top text-center"><i class="fas fa-school" id="sch"></i></div>
                             <div class="card-body text-center">
-                              <h4>Love</h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                              <h4>Class 12th</h4>
+                              <div class="card-text">
+                                  <p>CBSE BOARD</p>
+                                  <p>Aggregate of 76%</p>
+                              </div>
                             </div>
                             </div>
                         
@@ -425,10 +489,11 @@ margin-left:50px;
                    </div>
                    <div class="col-lg-4 col-12">
                     <div class="card card_1">
-                            <div class="card-img-top text-center">  <i class="fas fa-lock"></i></div>
+                            <div class="card-img-top text-center"><i class="fas fa-university" id="college"></i></div>
                             <div class="card-body text-center">
-                              <h4>Job Done</h4>
-                              <p>Lorem ipsum dolor sit amet..</p>
+                              <h4>B.tech</h4>
+                              <p>ABES Engineering College</p>
+                                <p>Aggregate of 80% till 6th semester</p>
                             </div>
                             </div>
                         </div>
@@ -442,48 +507,7 @@ margin-left:50px;
                    
                  </div>
 
-                          <div class="row">
-                            <div class="col-lg-4">
-                              <div class="card card_1">
-                                <div class="card-img-top text-center"><i class="fas fa-leaf"></i></div>
-                                  <div class="card-body text-center">
-                                    <h4>GREEN</h4>
-                                      <p>Lorem ipsum dolor sit amet..</p>
-                                  </div>
-                                </div>    
-                              </div>
-                             
 
-                            <div class="col-lg-4">
-                              <div class="card card_1">
-                                <div class="card-img-top text-center"><i class="fas fa-certificate"></i></div>
-                                   <div class="card-body text-center">
-                                      <h4>CERTIFIED</h4>
-                                         <p>Lorem ipsum dolor sit amet..</p>
-                                    </div>
-                                  </div>
-                                </div> 
-                            
-
-                            
-                            <div class="col-lg-4">
-                              <div class="card card_1">
-                                <div class="card-img-top text-center"><i class="fas fa-wrench"></i></div>
-                                   <div class="card-body text-center">
-                                      <h4>HARDWORK</h4>
-                                         <p>Lorem ipsum dolor sit amet..</p>
-                                    </div>
-                                  </div>
-                                </div> 
-                            
-
-
-
-
-
-
-
-                            </div>
 
 </div>
                      
@@ -494,7 +518,7 @@ margin-left:50px;
                         <h4 class="text-center" id="port">Things i've created</h4 >
                           <div class="row">
                             <div class="col-lg-6">
-                              <div class="card card_2">
+                              <div class="card card_2 mt-5 site">
                                 <img class="card-img-top" src="2019-08-12.png">
                                   <div class="card-body text-center">
                                     <h4 class="text-secondary">This WEBSITE</h4>
@@ -506,7 +530,7 @@ margin-left:50px;
 
                             <div class="col-lg-6">
                               <div class="card card_2">
-                                <img class="card-img-top" src="newyork.jpg"> 
+                                <img class="card-img-top" src="04_FormBuilder.jpg">
                                   <div class="card-body text-center">
                                     <h4 class="text-secondary">Form Builder</h4>
                                       <p class="text-secondary">i've made that too</p>
