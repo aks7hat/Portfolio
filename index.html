@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style type="text/css">
+  #back{
+            background-color:grey;
+            width:100%;
+            height:400px;
+            margin-left:0px;
+            padding:0px;
+
+  }  
+  a{
+    color:white;
+  }
+  a:hover{
+    color:#f4511e;
+    background-color:white;
+   
+
+  }
+  
+   #About, #Services, #portfolio, #Pricing, #Contact
+  {
+    
+    font-size: 18px !important; 
+     line-height: 1.42857143 !important;
+  letter-spacing: 4px;  
+  padding:10px;
+
+  } 
+.jumbotron{
+       background-color:#B0E0E6;
+       color:black;
+
+
+}
+
+#navigation
+{
+  background-color:chocolate;
+}
+#logo
+{ 
+  margin-top:-7px;
+}
+.fa-signal{
+          color:darkslateblue;
+          font-size:150px;
+          float:right;
+          margin-right:100px;
+          margin-top:-5px;
+          height:300px;
+
+
+}
+#para
+{
+margin-top:40px;
+margin-left:50px;
+
+  
+}
+#header{
+  margin-left:50px;
+}
+#secpara{
+           margin-top:60px;
+
+}
+#button_1{
+  padding:10px;
+  border-radius:10px;
+}
+
+
+#backg, #back_2{
+         
+           background-color:#f6f6f6;
+          
+
+}
+.fa-globe-americas
+{
+  font-size:200px;
+  
+  color:#f4511e;
+}
+/*#value
+{
+  position:relative;
+  top:-240px;
+*/
+}
+#mission , #vision
+{
+  position:relative;
+  top:-200px;
+  margin-left:290px;
+  padding:40px;
+}
+.fa-power-off
+{
+  color:#f4511e;
+  font-size:50px;
+}
+#power{
+           font-size:20px;
+           
+
+} 
+
+
+.fa-heart{
+  color:#f4511e;
+  font-size:50px;
+ 
+}
+.fa-lock
+{
+  color: #f4511e;
+  font-size:50px;
+ 
+}
+.fa-leaf , .fa-wrench , .fa-certificate
+{
+  color: #f4511e;
+  font-size:50px;
+
+}
+
+.card_1{
+  border:1px solid white;
+  margin-top:60px;
+}
+.card_2
+{
+  border:0px solid white;
+  margin-top:40px;
+}
+.navbar
+{
+  margin:0px;
+  padding:0px;
+}
+
+
+#port
+{
+  font-size:15px;
+  margin-top:40px;
+}
+
+.fa-angle-left , .carousel-control-next
+{
+  color:#f4511e; 
+  font-size:40px;
+
+}
+.carousel-control-prev:hover , .carousel-control-next:hover{
+   background-color:#f6f6f6;
+   color:#f4511e; 
+
+
+}
+
+#back_9
+{
+  background-color:#f6f6f6;
+}
+#comment{
+  height:150px;
+}
+
+.fa-signal
+{
+  padding:20px;
+  margin-right:10px;
+}
+
+
+.carousel{
+  width:100%;
+  height:300px;
+  /*margin-top:150px;*/
+}
+.carousel-inner
+{
+ padding:10%;
+}
+.carousel-indicators li
+{
+ width: 15px;
+ height: 15px;
+ border-radius: 10px;
+ border: 1px solid #f4511e;
+ /*margin-bottom:80px;*/
+}
+.carousel-indicators .active
+{
+  background: #f4511e; 
+}
+.card-footer
+{
+  background-color:white; 
+}
+.signup{
+  background-color:#f4511e;
+  border-radius:10px;
+  
+  height:40px;
+  text-align:center;
+  color:white;
+  font-size:20px;
+}
+.card-header{
+  background-color:#f4511e;
+  color:white;
+  height:100px;
+  padding:25px;
+  
+}
+.cardd{
+  margin-top:40px;
+}
+#send
+{
+  border:1px solid black;
+  background-color:white;
+}
+#email , #phone, #linked{
+    font-size:15px;
+    margin-top:-5px;
+}
+
+/*.cust
+{
+  padding:40px;
+}*/
+
+
+
+
+
+
+
+</style>
+
+</head>
+<body>
+  <div class="container-fluid  pl-0 pr-0">
+  
+<div id="back" class="row">
+  <div class="col-12">
+    <nav class="navbar navbar-header fixed-top">
+     <ul class="navbar-nav">
+        
+
+        </ul>
+       </nav> 
+        
+
+     <nav class="navbar navbar-expand-sm justify-content-end fixed-top  ">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navigation" class="fas fa-align-right">
+        <span class="fas fa-align-right"></span>
+      </button>
+       
+
+     <div class="collapse navbar-collapse justify-content-end" id="navigation"> 
+        <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#ab" id="About">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#se" id="Services">Services</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="#back_2" id="portfolio">projects</a>
+        </li>
+        
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#pr" id="Pricing">Pricing</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#co" id="Contact">Contact</a>
+        </li>
+        </ul>
+      </div>
+      </nav>
+    
+                   
+ 
+                         <div class="jumbotron text-center mt-5">
+                            <h1>Akshat Aggarwal</h1>
+                            <p class="text-center" id="email">Email:-aaakshataggarwal5@gmail.com</p>
+                             <p class="text-center" id="phone">ph:+91-9458531436</p>
+                             <p class="text-center" id="linked">LinkedIn: akshat-aggarwal-300342153</p>
+
+
+                         </div>
+
+       
+
+
+
+
+
+
+
+</div>
+</div>           
+</div>
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-8" id="ab">
+
+        <h1 class="mt-5 ml-4 vv text-center" >Career Objective</h1>
+        
+
+        <h6 class="mt-5 ml-4 vv">To work in a firm with a professional work driven environment where I can utilize and apply my knowledge, skills which would enable me as a fresh graduate to grow while fulfilling organizational goals.</h6>
+          
+
+
+
+
+ 
+                       
+
+                       <div class="form-group mt-5 ml-4 vv">
+                           <a href="https://www.linkedin.com/in/akshat-aggarwal-300342153/"<button type="button" class="btn btn-default btn-secondary">Get in Touch</button></a>
+</div>
+
+                </div>
+
+
+             <div class="col-lg-4 mt-5 p-4">
+                 <i class="fas fa-signal"></i></div>
+
+
+</div>
+</div>
+
+
+           <div class="container-fluid" id="backg" >  
+           <h1 id="value" class="text-center mt-5 p-5">KEY EXPERTISE / SKILLS</h1>
+          <div class="row">
+         <div class="col-lg-3">
+          <i class="fas fa-globe-americas container mb-5"></i>
+        </div>
+          <div class="col-lg-9">
+
+          <p id="mission">
+              <p>C</p>
+              <p>Core Java</p>
+              <p>OOPs Concept</p>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>Javascript</p>
+              <p>Jquery</p>
+              <p>Bootstrap</p>
+              <p>Python</p>
+
+          </p>
+              
+
+
+
+  
+     </div>
+   </div>
+  </div>
+
+           
+       
+
+
+                   <div class="container" id="se">
+                  
+                   
+                    <h1 class="text-center" >Services</h1>
+                       <h4 class="text-center pt-3">what we offer</h4>
+                       <div class="row">
+                         <div class="col-lg-4">
+                          <div class="card card_1">
+                            <div class="card-img-top text-center"> <i class="fas fa-power-off"></i></div>
+                            <div class="card-body text-center">
+                              <h4>Power</h4>
+                              <p>Lorem ipsum dolor sit amet..</p>
+                            </div>
+                            </div>
+                        
+                       
+                      </div>
+                      <div class="col-lg-4 col-12">
+                        <div class="card card_1">
+                            <div class="card-img-top text-center"> <i class="fas fa-heart"></i></div>
+                            <div class="card-body text-center">
+                              <h4>Love</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet..</p>
+                            </div>
+                            </div>
+                        
+
+                      
+                     
+
+
+                   </div>
+                   <div class="col-lg-4 col-12">
+                    <div class="card card_1">
+                            <div class="card-img-top text-center">  <i class="fas fa-lock"></i></div>
+                            <div class="card-body text-center">
+                              <h4>Job Done</h4>
+                              <p>Lorem ipsum dolor sit amet..</p>
+                            </div>
+                            </div>
+                        </div>
+
+                   
+                    
+                        
+
+
+
+                   
+                 </div>
+
+                          <div class="row">
+                            <div class="col-lg-4">
+                              <div class="card card_1">
+                                <div class="card-img-top text-center"><i class="fas fa-leaf"></i></div>
+                                  <div class="card-body text-center">
+                                    <h4>GREEN</h4>
+                                      <p>Lorem ipsum dolor sit amet..</p>
+                                  </div>
+                                </div>    
+                              </div>
+                             
+
+                            <div class="col-lg-4">
+                              <div class="card card_1">
+                                <div class="card-img-top text-center"><i class="fas fa-certificate"></i></div>
+                                   <div class="card-body text-center">
+                                      <h4>CERTIFIED</h4>
+                                         <p>Lorem ipsum dolor sit amet..</p>
+                                    </div>
+                                  </div>
+                                </div> 
+                            
+
+                            
+                            <div class="col-lg-4">
+                              <div class="card card_1">
+                                <div class="card-img-top text-center"><i class="fas fa-wrench"></i></div>
+                                   <div class="card-body text-center">
+                                      <h4>HARDWORK</h4>
+                                         <p>Lorem ipsum dolor sit amet..</p>
+                                    </div>
+                                  </div>
+                                </div> 
+                            
+
+
+
+
+
+
+
+                            </div>
+
+</div>
+                     
+
+
+                     <div class="container-fluid " id="back_2">
+                      <h1 class="text-center mt-5 p-4" >PROJECTS</h1>
+                        <h4 class="text-center" id="port">Things i've created</h4 >
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <div class="card card_2">
+                                <img class="card-img-top" src="2019-08-12.png">
+                                  <div class="card-body text-center">
+                                    <h4 class="text-secondary">This WEBSITE</h4>
+                                      <p class="text-secondary">Yes, I've Made it</p>
+                                  </div>    
+                              </div>
+                            </div> 
+
+
+                            <div class="col-lg-6">
+                              <div class="card card_2">
+                                <img class="card-img-top" src="newyork.jpg"> 
+                                  <div class="card-body text-center">
+                                    <h4 class="text-secondary">Form Builder</h4>
+                                      <p class="text-secondary">i've made that too</p>
+                                  </div>    
+                              </div>
+                            </div> 
+
+                            
+
+
+
+                          </div>
+
+                        
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center cust">What Motivates me </h2>
+          <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p class="text-center"><strong>"<i>Only I can change my life. No one can do it for me.</i></strong></p>
+    </div>
+    <div class="carousel-item">
+      <p class="text-center"><strong><i>"Optimism is the faith that leads to achievement.</i></strong></p>
+    </div>
+    <div class="carousel-item">
+      <p class="text-center"><strong><i>"Good, better, best. Never let it rest. 'Til your good is better and your better is best."</i>
+</strong></p>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <i class="fas fa-angle-left"></i>
+  </a>
+  <a class="carousel-control-next " href="#demo" data-slide="next">
+   <i class="fas fa-angle-right"></i>
+  </a>
+</div>                    
+                           </div>
+                      </div>
+                    </div>
+
+
+
+
+
+
+
+
+<div class="container-fluid">
+  <h2 class="text-center" id="pr">INTERNSHIP/TRAINING</h2>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card cardd">
+            <div class="card-header text-center">
+              <h2 class="pack">Internship</h2>
+            </div>  
+                <div class="card-body text-center text-secondary">
+                  <h3>Eduzent Infotech Pvt Ltd.</h3>
+                  <p class="mt-1">Duration:-2 months</p>
+
+                  <p class="mt-1">position:-Front-end Developer</p>
+
+
+                  
+                </div>  
+                     <div class="card-footer text-center text-secondary">
+                      <button type="button" class="signup">Certificate</button>
+                     </div>
+                  
+             </div>
+        </div>     
+          
+        
+             
+        
+             <div class="col-lg-6">
+          <div class="card cardd">
+            <div class="card-header text-center">
+              <h2 class="pack">Training</h2>
+            </div>  
+                <div class="card-body text-center text-secondary">
+                  <h2>Ducat</h2>
+                  <p>Course:-Java</p>
+
+                  
+                </div>
+
+              <div class="card-footer text-center text-secondary">
+                  <button type="button" class="signup">Certificate</button>
+              </div>
+                  
+             
+          </div>
+        </div>
+
+
+
+
+</div>
+</div>
+   
+
+
+
+<div class="container-fluid" id="back_9">
+  <h2 class="text-center mt-5 p-3" id="co">Contact</h2>
+  <div class="row">
+    <div class="col-lg-4" >
+       <h6 class="container text-secondary mt-5">Address.</h6>
+       <h6 class="container text-secondary"><i class="fas fa-map-marker-alt"></i>60/6, Laxman vihar, Muzaffarnagar</h6>
+       <h6 class="container text-secondary"><i class="fas fa-mobile-alt"></i>9458531436</h6>
+       <h6 class="container text-secondary"><i class="fas fa-envelope-square"></i>akshat.16bec2051@abes.ac.in</h6>
+    </div>
+    
+<div class="col-lg-8">
+  <div class="row">
+    <div class="col-lg-6">
+      <div class="form-group">
+      <input type="input" class="form-control mt-5" name="name" placeholder="Name" autocomplete="off" class="" required>
+    </div>
+  </div>
+
+   <div class="col-lg-6">
+    <div class="form-group">
+       <input type="input" class="form-control mt-5" name="name" placeholder="Email" autocomplete="off" required>
+    </div>
+   </div> 
+ </div>
+  
+  <div class="row">
+   <div class="col-lg-12">
+    <div class="form-group">
+       <input type="input" class="form-control" name="name" placeholder="Comment..." autocomplete="off" id="comment" required>
+    </div>
+  
+ </div>
+</div>
+   <div class="row">
+    <div class="col-lg-12 form-group">
+    <button class="btn btn-default pull-right" type="submit" id="send">Send</button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+   
+
+
+   <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <img  src="map.jpg" style="width:100%"></div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+                     
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
